@@ -1,6 +1,8 @@
-//: Playground - noun: a place where people can play
+// CREATIONAL: THE PROTOTYPE PATTERN
 
 import UIKit
+
+import Foundation
 
 class AbstractCard {
     
@@ -48,5 +50,9 @@ let raidRaider = Card(name: "Raid Raider", mana: 3, attack: 2, defense: 2)
 let copyCat = raidRaider.clone()
 
 print("\(copyCat.name), \(copyCat.mana), \(copyCat.attack), \(copyCat.defense)")
+
+
+// CREATIONAL : THE FACTORY METHOD PATTERN
+
 
 
